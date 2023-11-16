@@ -38,7 +38,7 @@ document.querySelector('.color_bg_pink').style.background='red';
         {document.querySelectorAll('.a-section.octopus-pc-item-hue-shield.octopus-pc-item-image-background-v3');},
         {document.querySelectorAll('.a-icon-star-mini');},
     ]
-//para sleecionar se usa .clase pero para añadir, no
+//para selecionar se usa .clase pero para añadir, no
     document.querySelector('.a-icon-star-mini').classList.add('a-star-mini-0');
 
     //existe toggle que si es verdadero lo hace y si no lo deshace, por lo que si existe hará x, por ejemplo

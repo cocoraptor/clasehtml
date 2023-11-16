@@ -29,7 +29,7 @@
         <header class="color_bg_pink">
             <h1>UX Designer</h1>
             <h2>Hi there I'm<br><span class="colorred">Sara Jones</span></h2>
-            <p>Welcome to my portfolio of captivating digital <br> experiences. 
+            <p >Welcome to my portfolio of captivating digital <br> experiences. 
                 Explore my work and let's create something <br>
                 extraordinary together.</p>
     
@@ -115,11 +115,14 @@
                 </li>
             
         </section>
-        <section class="'pink_bg">
-            <h2>My portfolio</h2>
-            <p>Explore my design services, from user interface and experience to prototyping and testing. Let's craft <br>
+        <section>
+            <div class="color_bg_pink">
+                <h2 >My portfolio</h2>
+                <p >Explore my design services, from user interface and experience to prototyping and testing. Let's craft <br>
                 exceptional digital experiences together.
-            </p>
+                </p>
+            </div>
+            
 
             <img
                 src="./imagenes/Educational_p.png" 
@@ -128,7 +131,9 @@
             ></img> 
             <h3>Educational Platform</h3>
             <p>Web Design / Usability Testing</p>
-            <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+            <a href="link">
+                <img src="./imagenes/ícono_FLECHA.png">
+            </a>
 
             <img
             src="./imagenes/travel_a_d.png" 
@@ -137,7 +142,9 @@
             ></img> 
             <h3>Travel App Design</h3>
             <p>Ux Research/App Design</p>
-            <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+            <a href="link">
+                <img src="./imagenes/ícono_FLECHA.png">
+            </a>
             
             <img
             src="./imagenes/personal_p.png" 
@@ -146,7 +153,9 @@
             ></img> 
             <h3>Personal Page</h3>
             <p>Web Design</p>
-            <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+            <a href="link">
+                <img src="./imagenes/ícono_FLECHA.png">
+            </a>
 
             <img
             src="./imagenes/furniture_m_a.png" 
@@ -155,7 +164,9 @@
             ></img> 
             <h3>Furniture Mobile App</h3>
             <p>App Design</p>
-            <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+            <a href="link">
+                <img src="./imagenes/ícono_FLECHA.png">
+            </a>
 
             <img
             src="./imagenes/coffee_house_l_p.png" 
@@ -164,7 +175,9 @@
             ></img> 
             <h3>Coffee House Landing Page</h3>
             <p>UX Research/Web Design</p>
-            <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+            <a href="link">
+                <img src="./imagenes/ícono_FLECHA.png">
+            </a>
 
             <img
             src="./imagenes/home_services_p.png" 
@@ -173,7 +186,9 @@
             ></img> 
             <h3>Home Services Page</h3>
             <p>Web design/Marketing</p>
-            <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+            <a href="link">
+                <img src="./imagenes/ícono_FLECHA.png">
+            </a>
         </section>
         <section>
             <h2>Core Design Skills</h2>
@@ -242,23 +257,40 @@
             data-testo="esto lo usaré en CSS o JS"
             ></img>
             <p>1234 Design Street,Creativeville, Webland,Imaginary State, 98765</p>
+
+            <a href="https://twitter.com/">
+                <img src="./imagenes/twitter_black.png">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="./imagenes/insta_black.png">
+            </a>
+            <a href="https://dribbble.com/">
+                <img src="./imagenes/dribble_black.png">
+            </a>
+            <a href="https://www.facebook.com/">
+                <img src="./imagenes/fb_black.png">
+            </a>
+
             <form>
-                <label for="name">Tu nombre completo</label>
-                <input type="text" id="name" placeholder="Jon Doe">
-                <label for="tel">Tu teléfono</label>
-                <input type="tel" id="tel" placeholder="+52 5532704905">
-                <label for="email">Tu correo electrónico</label>
-                <input type="email" id="email" placeholder="correo@servidor.com">
-                <textarea id="" maxlength="3" cols="30" rows="10"></textarea>
-                <button>Send Message</button>
-                <input type="submit" value="Enviar"
+                <li><label for="name">Tu nombre completo</label>
+                    <input type="text" id="name" placeholder="Tu nombre completo"></li>
+                <li>
+                    <label for="tel">Tu teléfono</label>
+                    <input type="tel" id="tel" placeholder="+34 000000000">
+                </li>
+                <li>
+                    <label for="email">Tu correo electrónico</label>
+                    <input type="email" id="email" placeholder="correo@servidor.com">
+                </li>
+                <li><textarea id="" maxlength="3" cols="30" rows="10"></textarea>
+                </li>
+                <li>
+                    <input type="submit" value="Enviar">
+                </li>
             </form>
             
 
-            <link rel="ícono twitter" type="image/x-icon" href="./imagenes/twitter_black.png" />
-            <link rel="ícono instagram" type="image/x-icon" src="./imagenes/insta_black.png" />
-            <link rel="ícono dribble" type="image/x-icon" src="./imagenes/dribble_black.png" />
-            <link rel="ícono facebook" type="image/x-icon" src="./imagenes/fb_black.png" />
+            
         </section>
         <footer class="color_bg_black">
             
@@ -267,7 +299,12 @@
                 <a href=alt="imagen2">"Services"</a>
             </nav>
             <div>
-                <a href="logo"></a>
+                <img
+                 src="./imagenes/logo.png" 
+                 width="80"
+                 alt="logotipo"
+                 data-testo="esto lo usaré en CSS o JS"
+                 ></img>
             </div>
             <nav>
                 <a href=alt="imagen3">"Portfolio"</a>
@@ -275,10 +312,19 @@
            </nav>
 
            <p>Follow me on social media</p>
-           <link rel="ícono twitter" type="image/x-icon" href="favicon.ico" />
-            <link rel="ícono instagram" type="image/x-icon" href="favicon.ico" />
-            <link rel="ícono dribble" type="image/x-icon" href="favicon.ico" />
-            <link rel="ícono facebook" type="image/x-icon" href="favicon.ico" />
+           <a href="https://twitter.com/">
+            <img src="./imagenes/twitter_white.png">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="./imagenes/insta_white.png">
+            </a>
+            <a href="https://dribbble.com/">
+                <img src="./imagenes/dribble_white.png">
+            </a>
+            <a href="https://www.facebook.com/">
+                <img src="./imagenes/fb_white.png">
+            </a>
+            
 
         </footer>
     </body>
