@@ -21,7 +21,17 @@ h2 {
         font-family: 'Tahoma', sans-serif;
         font-weight: normal;
     }
-
+.colorred {
+             color: red;
+     }
+.color_bg_pink {
+    background-color: #FFD4D0;
+    1F1F1F
+}
+.color_bg_black {
+    background-color: #1F1F1F;
+    color: whitesmoke;
+}
 h4 {
         font-size: 40px;
         font-family: 'Tahoma', sans-serif;
