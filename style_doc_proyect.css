@@ -31,7 +31,7 @@ h2 {
 .portfolio__imgs {
     display: grid;
     width: 33%;
-    display: block;
+    display: inline-block;
     padding: 20px;
 }
 
