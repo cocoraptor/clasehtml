@@ -19,7 +19,7 @@
                  ></img>   
             </div>
 
-            <nav>
+            <nav class="topbar__padding">
                 <a href=https://www.youtube.com/watch?v=dQw4w9WgXcQ="surprise">"About"</a>
                 <a href=alt="imagen2">"Services"</a>
                 <a href=alt="imagen3">"Portfolio"</a>
@@ -32,7 +32,7 @@
         </section>
         <header class="bg__color_pink">
             <h1>UX Designer</h1>
-            <h2>Hi there I'm<br><span class="font__color__red">Sara Jones</span></h2>
+            <h2 class="font__weight__bold">Hi there I'm<br><span class="font__color__red">Sara Jones</span></h2>
             <p >Welcome to my portfolio of captivating digital <br> experiences. 
                 Explore my work and let's create something <br>
                 extraordinary together.</p>
@@ -68,6 +68,7 @@
                     <h3>Clients Served</h3>
                 </td>
             </table>
+            <div class="square color-bg-red circled absolute"></div>
             
         </section>
         <section class="centered__section">
@@ -102,7 +103,8 @@
                     audience.</p>
                 </td>
                 
-                <td> <img
+                <td> 
+                    <img
                     src="./imagenes/icono_3.png" 
                     alt="Imagen de UX"
                     data-testo="esto lo usaré en CSS o JS"
@@ -129,8 +131,8 @@
             </table>
             
         </section>
-        <section class="centered__section">
-            <div class="bg__color_pink">
+        <section class="centered__section color-bg-mix">
+            <div class="bg__color_pink ">
                 <h2 >My portfolio</h2>
                 <p >Explore my design services, from user interface and experience to prototyping and testing. Let's craft <br>
                 exceptional digital experiences together.
@@ -210,101 +212,112 @@
             <p>I excel in essential design skills, creating visually stunning and functional digital experiences. From UI <br>
             design to UX research, my passion is to craft effective and memorable digital solutions.</p>
             <table class="padding__designskills"> 
-                <td>
-                    <label for="Interactiondesign">Interaction Design</label>
-                    <progress id="Interactiondesign" max="100" value="60">
-                    60%
-                    </progress>
-                </td>
-                <td>
-                    <label for="Usabilitytesting">Usability Testing</label>
-                    <progress id="Usabilitytesting" max="100" value="70">
-                    70%
-                    </progress>
-                </td>
-                <td>
-                    <label for="Userresearch">User Research</label>
-                    <progress id="Userresearch" max="100" value="45">
-                    45%
-                    </progress>
-                </td>
-            </tr>
-                <td>
-                    <label for="Figma">Figma</label>
-                    <progress id="Figma" max="100" value="95">
-                    95%
-                    </progress>
-                </td>
-                <td>
-                    <label for="Prototyping">Prototyping</label>
-                    <progress id="Prototyping" max="100" value="80">
-                    80%
-                    </progress>
-                </td>
-                <td> <label for="Informationarchitecture">Information Architecture</label>
-                    <progress id="Informationarchitecture" max="100" value="50">
-                    50%
-                    </progress>
-                </td>
-            </table>  
-        </section>
+                    <td>
+                        <label for="Interactiondesign">Interaction Design</label>
+                        <progress id="Interactiondesign" max="100" value="60">
+                        60%
+                        </progress>
+                    </td>
+                    <td>
+                        <label for="Usabilitytesting">Usability Testing</label>
+                        <progress id="Usabilitytesting" max="100" value="70">
+                        70%
+                        </progress>
+                    </td>
+                    <td>
+                        <label for="Userresearch">User Research</label>
+                        <progress id="Userresearch" max="100" value="45">
+                        45%
+                        </progress>
+                    </td>
+                </tr>
+                    <td>
+                        <label for="Figma">Figma</label>
+                        <progress id="Figma" max="100" value="95">
+                        95%
+                        </progress>
+                    </td>
+                    <td>
+                        <label for="Prototyping">Prototyping</label>
+                        <progress id="Prototyping" max="100" value="80">
+                        80%
+                        </progress>
+                    </td>
+                    <td> <label for="Informationarchitecture">Information Architecture</label>
+                        <progress id="Informationarchitecture" max="100" value="50">
+                        50%
+                        </progress>
+                    </td>
+                </table>  
+            </section>
+
         <section class="bg__color_pink">
-            <h2>Get in Touch</h2>
-            <p>
-                Have a question or a project in mind? I'd love to hear from you. Let's <br>
-                chat and make something amazing together.
-            </p>
-
-            <img
-            src="./imagenes/tel_black.png" 
-            alt="icono tel"
-            data-testo="esto lo usaré en CSS o JS"
-            ></img>
-            <p>+1205 5872 321</p> 
-            <img
-            src="./imagenes/mail_black.png" 
-            alt="icono correo"
-            data-testo="esto lo usaré en CSS o JS"
-            ></img>
-            <p>contact@sarajonesdesign.com</p>
-            <img
-            src="./imagenes/direction_black.png" 
-            alt="icono direcciòn"
-            data-testo="esto lo usaré en CSS o JS"
-            ></img>
-            <p>1234 Design Street,Creativeville, Webland,Imaginary State, 98765</p>
-
-            <a href="https://twitter.com/">
-                <img src="./imagenes/twitter_black.png">
-            </a>
-            <a href="https://www.instagram.com/">
-                <img src="./imagenes/insta_black.png">
-            </a>
-            <a href="https://dribbble.com/">
-                <img src="./imagenes/dribble_black.png">
-            </a>
-            <a href="https://www.facebook.com/">
-                <img src="./imagenes/fb_black.png">
-            </a>
-
-            <form>
-                <li><label for="name">Tu nombre completo</label>
-                    <input type="text" id="name" placeholder="Tu nombre completo"></li>
-                <li>
+            <div class="container__get_in_touch grid__two_columns">
+            <table>  
+                <td>
+                <h2>Get in Touch</h2>
+                <p>
+                    Have a question or a project in mind? I'd love to hear from you. Let's <br>
+                    chat and make something amazing together.
+                </p>
+                </td>
+                <td>   
+                    <img
+                    src="./imagenes/tel_black.png" 
+                    alt="icono tel"
+                    data-testo="esto lo usaré en CSS o JS"
+                    ></img>
+                    <p >+1205 5872 321</p> 
+                </td>
+                <td>
+                    <img
+                    src="./imagenes/mail_black.png" 
+                    alt="icono correo"
+                    data-testo="esto lo usaré en CSS o JS"
+                    ></img>
+                    <p>contact@sarajonesdesign.com</p>
+                </td>
+                <td>
+                    <img
+                    src="./imagenes/direction_black.png" 
+                    alt="icono direcciòn"
+                    data-testo="esto lo usaré en CSS o JS"
+                    ></img>
+                    <p>1234 Design Street,Creativeville, Webland,Imaginary State, 98765</p>
+                </td>
+                <td id="icons">
+                    <a href="https://twitter.com/">
+                        <img src="./imagenes/twitter_black.png">
+                    </a>
+                    <a href="https://www.instagram.com/">
+                        <img src="./imagenes/insta_black.png">
+                    </a>
+                    <a href="https://dribbble.com/">
+                        <img src="./imagenes/dribble_black.png">
+                    </a>
+                    <a href="https://www.facebook.com/">
+                        <img src="./imagenes/fb_black.png">
+                    </a>
+                </td>
+            </table>
+            <form class="container__form">
+                <div><label for="name">Tu nombre completo</label>
+                    <input type="text" id="name" placeholder="Tu nombre completo"></div>
+                <div>
                     <label for="tel">Tu teléfono</label>
                     <input type="tel" id="tel" placeholder="+34 000000000">
-                </li>
-                <li>
+                </div>
+                <div>
                     <label for="email">Tu correo electrónico</label>
                     <input type="email" id="email" placeholder="correo@servidor.com">
-                </li>
-                <li><textarea id="" maxlength="3" cols="30" rows="10"></textarea>
-                </li>
-                <li>
+                </div>
+                <div><textarea id="" maxlength="3" cols="30" rows="10"></textarea>
+                </div>
+                <div>
                     <input type="submit" value="Enviar">
-                </li>
+                </div>
             </form>
-            
+        </div>
 
             
         </section>
